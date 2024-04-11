@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Coiny&family=Dangrek&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Segou UI', sans-serif;
+}
+
+#linha_topo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#topo {
+    background: linear-gradient(0deg, rgba(195, 34, 34, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topo #logo img {
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    margin-right: 5%;
+}
+
+#menu {
+    border: solid 3px white;
+    box-shadow: #555 3px 3px 3px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(255, 236, 110, 1) 0%, rgba(250, 171, 0, 1) 100%);
+    display: flex;
+    justify-content: center;
+
+}
+
+#menu-icon img {
+    width: 50px;
+    padding-top: 15px;
+
+}
+
+#extenda {
+    text-align: center;
+    width: 200px;
+    height: 100vh;
+    margin-top: 200px;
+    left: -200px;
+    top: 0;
+    background: rgb(255, 236, 110);
+    background: linear-gradient(0deg, rgba(255, 236, 110, 1) 0%, rgba(250, 171, 0, 1) 100%);
+    transition: left 0.3s ease;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    position: absolute;
+    border: solid 3px white;
+    opacity: 1;
+}
+
+main {
+    margin-top: 165px;
+}
+
+.burger {
+    padding: -25px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 450px;
+    height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.food {
+    margin-top: -100px;
+}
+
+.food-img h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 1px black;
+}
+
+.food-img img {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    margin-top: -25px;
+    margin-left: 75px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: -40px;
+    text-shadow: 2px 2px 1px black;
+}
+
+p {
+    text-shadow: 1px 0.5px 0.5px black;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#hamburger {
+    margin-top: -50px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200vh;
+    background: radial-gradient(circle, rgba(221, 160, 160, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+
+
+
+#hamburger2 {
+    margin-top: -50px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200vh;
+    background: radial-gradient(circle, rgba(221, 160, 160, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+#bebidas {
+    padding-top: 100px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 0, 206, 1) 21%, rgba(200, 1, 162, 1) 79%);
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200vh;
+
+}
+
+#bebidas .burger {
+    padding: -25px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 450px;
+    height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#sobremesas {
+    margin-top: -50px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200vh;
+    background: rgb(80, 200, 235);
+    background: radial-gradient(circle, rgba(80, 200, 235, 1) 0%, rgba(0, 99, 255, 1) 21%, rgba(1, 68, 200, 1) 79%);
+}
+
+#sobremesas .burger {
+    padding: -25px;
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 450px;
+    height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#fritas {
+    margin-top: -50px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200vh;
+    background: rgb(209, 251, 63);
+    background: radial-gradient(circle, rgba(209, 251, 63, 1) 0%, rgba(70, 252, 94, 1) 100%);
+}
+
+#fritas .burger {
+    padding: -25px;
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 450px;
+    height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#rodape {
+    height: 110px;
+    background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(195, 34, 34, 1) 100%);
+    padding-bottom: 1px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape p {
+    text-align: end;
+    padding-top: 70px;
+    padding-right: 25px;
+}
+
+#rodape img {
+    width: 110px;
+    margin-top: 65px;
+    margin-right: 50px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#extenda.ativo {
+    left: 0;
+}
+
+#extenda ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#extenda ul li {
+    margin-bottom: 10px;
+}
+
+#extenda ul li a {
+    text-shadow: 2px 1px 1px black;
+    margin-left: 30px;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+
+#extenda ul li a:hover {
+    background: linear-gradient(0deg, rgba(195, 34, 34, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 236, 110);
+    background: linear-gradient(0deg, rgba(255, 236, 110, 1) 0%, rgba(250, 171, 0, 1) 100%);
+    border: solid 1px white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dfdfdfd5;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #00000057;
+}
